@@ -1,0 +1,27 @@
+/* .nav_img{
+    color: black;
+   
+} */
+/* vertical menu bar*/
+.menu>span:hover{
+ background-color: bisque;
+
+}
+
+/* list menu (dropdown)*/
+.list_manu{
+    display: none;
+}
+
+
+/* for medi queries*/
+@media screen and (width<805px)
+ {
+    .menu{
+        display: none;
+    }
+    .list_manu{
+        display: block;
+    }
+    
+}
