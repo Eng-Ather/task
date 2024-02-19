@@ -7,6 +7,10 @@ body{
    
 }
 
+.card{
+    background-color:rgb(244, 162, 12) !important ;
+}
+
  .nav_bar{
  padding: 0px;
   margin: 0px;
