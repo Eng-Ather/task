@@ -3,22 +3,26 @@ body{
     margin: 0px;
     background-color:rgb(244, 162, 12);
     border: 2px solid red;
-    width: 100%;
+    /* width: 100%; */
    
 }
 
+.nav_bar{
+    padding: 0px;
+     margin: 0px;
+   } 
+
+/* for all cards */
 .card{
     background-color:rgb(244, 162, 12) !important ;
 }
 
- .nav_bar{
- padding: 0px;
-  margin: 0px;
-} 
+ 
 
-/* vertical menu bar*/
+/* vertical menu bar list bar*/
 .menu>span:hover{
  background-color: bisque;
+ cursor: pointer;
 
 }
 
@@ -27,13 +31,21 @@ body{
     display: none;
 }
 
+.footer{
+    border: 2px solid brown;
+    display: flex ;
+}
+
 
 /* for medi queries*/
 @media (width<805px)
  {
+    /* for horizontal manu bar*/
     .menu{
         display: none;
     }
+
+    /*virtical manu bar list type*/
     .list_manu{
         display: block;
     }
